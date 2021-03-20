@@ -1,6 +1,6 @@
 # GitHub commits by repository
 
-A script to search GitHub for commits by repository.
+A script to show commits for a given user, grouped by repository
 
 ```bash
 $ github-commits-by-repository -h

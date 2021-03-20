@@ -1,7 +1,7 @@
 {
   "name": "github-commits-by-repository",
   "version": "1.0.0",
-  "description": "",
+  "description": "A script to show commits for a given user, grouped by repository",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
