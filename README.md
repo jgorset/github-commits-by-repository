@@ -29,7 +29,7 @@ To search GitHub enterprise, set these environment variables:
 ### Search for one user
 
 ```bash
-$ github-commits-by-repository jgorset
+$ github-commits-by-repository jgorset --limit 100
 {
   users: [
     {
@@ -52,7 +52,7 @@ $ github-commits-by-repository jgorset
 ### Search for several users
 
 ```bash
-$ github-commits-by-repository jgorset,timkurvers
+$ github-commits-by-repository jgorset,timkurvers --limit 100
 {
   users: [
     {
@@ -85,6 +85,7 @@ $ github-commits-by-repository jgorset,timkurvers
 ### Sum the results
 
 ```bash
+$ github-commits-by-repository jgorset,timkurvers --limit 100 --sum
 {
   users: [...],
   sum: {
