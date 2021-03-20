@@ -6,8 +6,6 @@ async function search(author, limit=100) {
   const repositories = {};
   const promises = [];
 
-  //const results = await query(author);
-
   const pages = Array.from({length: Math.ceil(limit / MAX_PER_PAGE)}, (_, i) => i + 1)
 
   pages.forEach((page) => {
@@ -16,9 +14,7 @@ async function search(author, limit=100) {
     );
   });
 
-  const queries = await Promise.all(promises);
-
-  const results = queries;
+  const results = await Promise.all(promises);
 
   results.forEach((result) => {
     result.data.items.forEach((commit) => {
