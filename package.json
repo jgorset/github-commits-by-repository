@@ -11,7 +11,7 @@
     "github-commits-by-repository": "bin/github-commits-by-repository.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@octokit/core": "^3.3.1",
     "yargs": "^16.2.0"
