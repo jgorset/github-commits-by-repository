@@ -11,6 +11,10 @@ Options:
   -h, --help     Show help                                             [boolean]
 ```
 
+## Installation
+
+`$ npm install github-commits-by-repository`
+
 ## Configuration
 
 To search GitHub enterprise, set these environment variables:
