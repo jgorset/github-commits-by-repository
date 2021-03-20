@@ -13,7 +13,9 @@ Options:
 
 ## Installation
 
-`$ npm install github-commits-by-repository`
+```bash
+$ npm install github-commits-by-repository
+```
 
 ## Configuration
 
